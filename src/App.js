@@ -9,10 +9,17 @@ function App() {
   return (
     <>
     <Header></Header>
-    <Grid></Grid>
+    
+    <div className="mt-8">
+        <Grid />
+      </div>
+
+    
     <div  style={{ height: "100vh"}}>
 
     </div>
+
+    
 
 
     <BottomNavigation></BottomNavigation>
