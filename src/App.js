@@ -9,6 +9,11 @@ function App() {
     <>
     <Header></Header>
     <Grid></Grid>
+    <div  style={{ height: "100vh"}}>
+
+    </div>
+
+
     <Footer></Footer>
   
     
