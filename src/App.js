@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
     
 function App() {
-  return ( 
-    <h1 className="text-3xl font-bold underline">
-    <marquee>Hello world!
-    </marquee>
+  return (
+    <>
+    <h1 className="text-2xl font-bold  flex justify-center">Hello World
   </h1>
+    
+    </> 
+    
   );
 }
 
