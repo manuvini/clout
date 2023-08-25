@@ -8,7 +8,12 @@ import BottomNavigation from './Components/BottomNav';
 function App() {
   return (
     <>
-    <Header></Header>
+    <Header>
+      <div></div>
+
+
+
+    </Header>
     
     <div className="mt-8">
         <Grid />
@@ -20,9 +25,7 @@ function App() {
     </div>
 
     
-
-
-    <BottomNavigation></BottomNavigation>
+<BottomNavigation></BottomNavigation>
 
     <Footer></Footer>
   
