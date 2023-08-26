@@ -4,30 +4,35 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Grid from './Components/Grid';
 import BottomNavigation from './Components/BottomNav';
+import Slider from './Components/Slider';
+import ProductListing from './Components/SectionProducts';
     
 function App() {
   return (
     <>
     <Header>
-      <div></div>
-
-
-
     </Header>
-    
-    <div className="mt-8">
-        <Grid />
-      </div>
 
-    
-    <div  style={{ height: "100vh"}}>
+    <Slider></Slider>
+    <ProductListing></ProductListing>
 
-    </div>
 
-    
-<BottomNavigation></BottomNavigation>
 
     <Footer></Footer>
+
+
+
+
+
+
+    {/* <div className="mt-8">
+        <Grid />
+      </div> */}
+    
+
+    
+{/* <BottomNavigation></BottomNavigation> */}
+
   
     
     </> 
