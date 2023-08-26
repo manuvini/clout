@@ -14,59 +14,59 @@ const sampleProducts = [
   {
     id: 1,
     name: "Back Pain Relief",
-    // image:
-    //   "https://lh3.googleusercontent.com/p/AF1QipPOHRLhhgUmOkueu4ZVC_mxPaf0TCTYfqkllY7Z=s1360-w1360-h1020",
-    price: 125,
+    image:
+      "https://www.kpwashingtonresearch.org/application/files/4915/9102/9458/back-pain-massage_2col.jpg",
+    price: 1125,
   },
   {
     id: 2,
     name: "Knee Pain Relief",
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipNg9A3iEIz2wBRwobvJTKjAHVmmvk6n6-tTlPbn=s1360-w1360-h1020",
-    price: 125,
+      "https://i.ytimg.com/vi/5NxgShCcmfc/maxresdefault.jpg",
+    price: 1250,
   },
   {
     id: 3,
     name: "Joint Pain Relief",
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipOl5pgVrNKteS7U14ASZrJj1KauyxZ0vlbqJlvz=s1360-w1360-h1020",
-    price: 69,
+      "https://massagegunadvice.com/wp-content/uploads/2023/02/bob-and-brad-d6-pro-used-to-massage-knee-pain.webp",
+    price: 1069,
   },
   {
     id: 4,
     name: "Sports Injuries",
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipO_rfWbXXW8yYeaNAgvMv-U1kARkmo5VKQt9x-0=s1360-w1360-h1020",
-    price: 49,
+      "https://blog.hydragun.com/wp-content/uploads/2021/09/shutterstock_369193766-scaled.jpg",
+    price: 1049,
   },
   {
     id: 5,
     name: "Mobility Exercise",
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipO4x8evlmVkFkRUk5ZWFpyyVXOhETDa5nmQubC2=s1360-w1360-h1020",
-    price: 35,
+      "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2021/12/Massage_constipation_GettyImages1333975275_Thumb.jpg",
+    price: 1035,
   },
   {
     id: 6,
     name: "Neck Pain Relief",
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipMLoK8S1ljqCwA6h-9gvdT9e4KTlekzA-rxHX7b=s1360-w1360-h1020",
-    price: 35,
+      "https://loosenupbodywork.com/wp-content/uploads/2013/02/man-massage.jpg",
+    price: 1535,
   },
   {
     id: 7,
     name: "Rib Pain Relief",
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipNIvSr3OEs4JY-QA7dmoGQtOVf1KQYSRgYhXhYU=s1360-w1360-h1020",
-    price: 99,
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-F_pLmZfrEKh4b4KTfHQPFThT5wEC9Cqp2veq8qUyNWo3bIRnLvs3iqZF7hIr-PG6i8&usqp=CAU",
+    price: 1999,
   },
 
   {
     id: 8,
     name: "Foot Pain Relief",
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipPqdXvKXP8QmO3Dh84sYxy22CMu3BtrZ-0I-Fww=s1360-w1360-h1020",
-    price: 99,
+      "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
+    price: 1899,
   },
 ];
 const ProductListing = ({ category }) => {
