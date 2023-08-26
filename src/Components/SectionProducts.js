@@ -16,49 +16,56 @@ const sampleProducts = [
     name: "Back Pain Relief",
     // image:
     //   "https://lh3.googleusercontent.com/p/AF1QipPOHRLhhgUmOkueu4ZVC_mxPaf0TCTYfqkllY7Z=s1360-w1360-h1020",
-    price: 125,
+    price: 999,
+    originalPrice: 2000
   },
   {
     id: 2,
     name: "Knee Pain Relief",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipNg9A3iEIz2wBRwobvJTKjAHVmmvk6n6-tTlPbn=s1360-w1360-h1020",
-    price: 125,
+      price: 1499,
+      originalPrice: 2000
   },
   {
     id: 3,
     name: "Joint Pain Relief",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipOl5pgVrNKteS7U14ASZrJj1KauyxZ0vlbqJlvz=s1360-w1360-h1020",
-    price: 69,
+      price: 1200,
+      originalPrice: 2000
   },
   {
     id: 4,
     name: "Sports Injuries",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipO_rfWbXXW8yYeaNAgvMv-U1kARkmo5VKQt9x-0=s1360-w1360-h1020",
-    price: 49,
+      price: 1499,
+      originalPrice: 2000
   },
   {
     id: 5,
     name: "Mobility Exercise",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipO4x8evlmVkFkRUk5ZWFpyyVXOhETDa5nmQubC2=s1360-w1360-h1020",
-    price: 35,
+      price: 1299,
+      originalPrice: 2000
   },
   {
     id: 6,
     name: "Neck Pain Relief",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipMLoK8S1ljqCwA6h-9gvdT9e4KTlekzA-rxHX7b=s1360-w1360-h1020",
-    price: 35,
+      price: 1099,
+      originalPrice: 2000
   },
   {
     id: 7,
     name: "Rib Pain Relief",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipNIvSr3OEs4JY-QA7dmoGQtOVf1KQYSRgYhXhYU=s1360-w1360-h1020",
-    price: 99,
+    price: 899,
+    originalPrice: 2000
   },
 
   {
@@ -66,7 +73,9 @@ const sampleProducts = [
     name: "Foot Pain Relief",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipPqdXvKXP8QmO3Dh84sYxy22CMu3BtrZ-0I-Fww=s1360-w1360-h1020",
-    price: 99,
+    price: 1899,
+    originalPrice: 2000
+
   },
 ];
 const ProductListing = ({ category }) => {
