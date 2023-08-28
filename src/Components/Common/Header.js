@@ -66,12 +66,12 @@ function Header() {
               </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to = {'/Contact'}
                 className="text-white hover:text-blue-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
