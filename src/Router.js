@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import App from "./Pages/App"
 import About from "./Pages/About"
+import Contact from "./Pages/Contact"
 
 const Router = () => {
 
@@ -15,6 +16,10 @@ const Router = () => {
 
 
 
+
+
+
+        <Route path="/contact" element={<Contact/>}></Route>
 
         </Routes>
         
