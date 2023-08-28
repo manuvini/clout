@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,20 +42,20 @@ function Header() {
           </div>
           <ul className="hidden lg:flex space-x-10">
             <li>
-              <a
-                href="#"
+              <Link
+                to={"/"}
                 className="text-white hover:text-blue-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to={'/about'}
                 className="text-white hover:text-blue-300"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a
