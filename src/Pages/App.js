@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Grid from './Components/Grid';
-import BottomNavigation from './Components/BottomNav';
-import Slider from './Components/Slider';
-import ProductListing from './Components/SectionProducts';
+import Header from '../Components/Common/Header';
+import Footer from '../Components/Common/Footer';
+import Grid from '../Components/Common/Grid';
+import BottomNavigation from '../Components/Common/BottomNav';
+import Slider from '../Components/Common/Slider';
+import ProductListing from '../Components/Common/SectionProducts';
     
 function App() {
   return (
