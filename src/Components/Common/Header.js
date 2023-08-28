@@ -15,7 +15,7 @@ function Header() {
           <div className="flex items-center space-x-2">
             {/* Your logo */}
             <a href="#" className="text-white text-2xl pl-5">
-              Clout services
+              Ehikka
             </a>
           </div>
           <div className="lg:hidden">
@@ -58,12 +58,12 @@ function Header() {
               </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to={"/Services"}
                 className="text-white hover:text-blue-300"
               >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
               <a

@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <h1 className="text-3xl font-bold text-white mb-4">
-                Clout Services
+                Ehikka 
               </h1>
               {/* <img
                 src="https://firebasestorage.googleapis.com/v0/b/sproutive-1763d.appspot.com/o/sproutive-logo.png?alt=media&token=45162347-bace-40c6-b1d2-632fbbd62469"
