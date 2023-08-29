@@ -165,7 +165,7 @@ const ProductListing = ({ category }) => {
                   </p>
                 </div>
               </div>
-              <button
+              {/* <button
                 onClick={() => {
                   // addToCart(product.id);
                   // IncrementAddToCart();
@@ -174,7 +174,7 @@ const ProductListing = ({ category }) => {
                 style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
               >
                 Book Your Service
-              </button>
+              </button> */}
             </div>
           ))}
         </div>

@@ -59,6 +59,14 @@ function Header() {
             </li>
             <li>
               <Link
+                to={"/Gallery"}
+                className="text-white hover:text-blue-300"
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
                 to={"/Services"}
                 className="text-white hover:text-blue-300"
               >

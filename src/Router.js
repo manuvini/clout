@@ -3,6 +3,7 @@ import App from "./Pages/App"
 import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import Services from "./Pages/Services"
+import Gallery from "./Pages/Gallery"
 
 const Router = () => {
 
@@ -14,6 +15,9 @@ const Router = () => {
         <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About/>}></Route>
+
+        <Route path="/gallery" element={<Gallery/>}></Route>
+
         <Route path="/services" element={<Services/>}></Route>
 
 
