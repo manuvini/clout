@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <>
-      <header className="bg-slate-900 py-4">
+      <header className="bg-black py-4">
         <nav className="flex items-center justify-between max-w-6xl mx-auto px-4">
           <div className="flex items-center space-x-2">
             {/* Your logo */}
@@ -27,7 +27,7 @@ function Header() {
               <svg
                 className="w-6 h-6"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -93,36 +93,47 @@ function Header() {
         }}
       >       <ul className="bg-black text-white flex-col py-2 space-y-1 lg:space-y-0 lg:flex-row lg:space-x-6">
           <li>
-            <a
+            <Link
+            to = {"/"}
               href="#"
-              className="text-black hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
-              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+            <Link
+            to = {"/about"}
+            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
-              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+            <Link
+            to = {"/gallery"}
+            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+            >
+              Gallery
+            </Link>
+          </li>
+
+
+          <li>
+            <Link
+            to = {"/services"}
+            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               Services
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
-              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+            <Link
+            to = {"/contact"}
+            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
