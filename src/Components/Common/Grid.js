@@ -1,56 +1,34 @@
 import React from 'react';
 
+const Gallery = [
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-1.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-3.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-4.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-5.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-6.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-7.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-8.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-10.jpg",
+  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-9.jpg",
+];
+
+
 function Grid() {
   return (
-    <div className="grid grid-cols-3 gap-4 mt-8">
-      {/* First row */}
-      <div className="col-span-1 flex flex-col items-center">
-        <div className="w-auto min-w-30 h-20 md:w-30 md:h-30 lg:w-40 lg:h-40 rounded overflow-hidden bg-gray-200">
-        Rectangle 1
-            </div>
-        <p className="mt-2">Rectangle 1</p>
+    <>
+      <h1 className="text-3xl font-bold mt-4 text-center">Gallery</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-2 ml-4 mt-8">
+        {Gallery.map((elem, index) => (
+          <div key={index} className="h-0 relative pb-[100%]">
+            <img
+              src={elem}
+              alt={`Gallery Image ${index}`}
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+        ))}
       </div>
-      <div className="col-span-1 flex flex-col items-center">
-        <div className="w-auto h-20 md:w-30 md:h-30 lg:w-40 lg:h-40 rounded overflow-hidden bg-gray-200">
-          {/* Your content inside the rectangle */}
-        </div>
-        <p className="mt-2">Rectangle 2</p>
-      </div>
-      <div className="col-span-1 flex flex-col items-center">
-        <div className="w-auto h-20 md:w-30 md:h-30 lg:w-40 lg:h-40 rounded overflow-hidden bg-gray-200">
-          {/* Your content inside the rectangle */}
-        </div>
-        <p className="mt-2">Rectangle 3</p>
-      </div>
-
-      {/* Second row */}
-      <div className="col-span-3 flex justify-center mt-4">
-        <div className="bg-gray-200 w-16 h-4 rounded-full"></div>
-      </div>
-
-      {/* Third row */}
-      <div className="col-span-1 flex flex-col items-center">
-        <div className="w-auto min-w-30 h-20 md:w-30 md:h-30 lg:w-40 lg:h-40 rounded overflow-hidden bg-gray-200">
-          {/* Your content inside the rectangle */}
-        </div>
-        <p className="mt-2">Rectangle 4</p>
-      </div>
-      <div className="col-span-1 flex flex-col items-center">
-        <div className="w-auto min-w-30 h-20 md:w-30 md:h-30 lg:w-40 lg:h-40 rounded overflow-hidden bg-gray-200">
-          {/* Your content inside the rectangle */}
-        </div>
-        <p className="mt-2">Rectangle 5</p>
-      </div>
-      <div className="col-span-1 flex flex-col items-center">
-        <div className="w-auto min-w-30 h-20 md:w-30 md:h-30 lg:w-40 lg:h-40 rounded overflow-hidden bg-gray-200">
-          {/* Your content inside the rectangle */}
-        </div>
-        <p className="mt-2">Rectangle 6</p>
-      </div>
-
-    
-      
-    </div>
+    </>
   );
 }
 

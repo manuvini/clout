@@ -13,51 +13,51 @@ import React, { useEffect, useState } from "react";
 const sampleProducts = [
   {
     id: 1,
-    name: "Back Pain Relief",
+    name: "Sciatica",
     image:
-      "https://www.kpwashingtonresearch.org/application/files/4915/9102/9458/back-pain-massage_2col.jpg",
+      "https://domf5oio6qrcr.cloudfront.net/medialibrary/12453/9000ebcd-8502-45fe-b305-de3a0b43ced2.jpg",
     price: 1125,
     originalPrice: 2000
   },
   {
     id: 2,
-    name: "Knee Pain Relief",
+    name: "Ciatic Nerve Pain",
     image:
-      "https://i.ytimg.com/vi/5NxgShCcmfc/maxresdefault.jpg",
+      "https://www.h-wave.com/wp-content/uploads/2019/03/sciatic-nerve-pain_850.jpg",
     price: 1250,
     originalPrice: 2000
   },
   {
     id: 3,
-    name: "Joint Pain Relief",
+    name: "Neuropathic Pain",
     image:
-      "https://massagegunadvice.com/wp-content/uploads/2023/02/bob-and-brad-d6-pro-used-to-massage-knee-pain.webp",
+      "https://www.removemypain.com/blog/wp-content/uploads/2019/01/Know-All-About-the-Treatment-Options-for-Neuropathic-Pain.jpg",
     price: 1069,
     originalPrice: 2000
   },
   {
     id: 4,
-    name: "Sports Injuries",
+    name: "Pinched Spinal Nerve",
     image:
-      "https://blog.hydragun.com/wp-content/uploads/2021/09/shutterstock_369193766-scaled.jpg",
+      "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
     price: 1049,
     originalPrice: 2000
 
   },
   {
     id: 5,
-    name: "Mobility Exercise",
+    name: "Groin Nerve Pain",
     image:
-      "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2021/12/Massage_constipation_GettyImages1333975275_Thumb.jpg",
+      "https://dg0qqklufr26k.cloudfront.net/wp-content/uploads/2020/11/Groin-Pain-1024X768.jpg",
     price: 1035,
     originalPrice: 2000
 
   },
   {
     id: 6,
-    name: "Neck Pain Relief",
+    name: "Sacroiliac Joint Pain",
     image:
-      "https://loosenupbodywork.com/wp-content/uploads/2013/02/man-massage.jpg",
+      "https://somaticmovementcenter.com/wp-content/uploads/2019/07/Sijoint.jpg",
     price: 1535,
     originalPrice: 2000
 
@@ -65,9 +65,9 @@ const sampleProducts = [
   },
   {
     id: 7,
-    name: "Rib Pain Relief",
+    name: "Pinched Nerve In Lower Back",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-F_pLmZfrEKh4b4KTfHQPFThT5wEC9Cqp2veq8qUyNWo3bIRnLvs3iqZF7hIr-PG6i8&usqp=CAU",
+      "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
     price: 1999,
     originalPrice: 2000
 
@@ -75,9 +75,83 @@ const sampleProducts = [
 
   {
     id: 8,
-    name: "Foot Pain Relief",
+    name: "Trigger Point",
+    image:
+      "https://lirp.cdn-website.com/2c25dec1/dms3rep/multi/opt/article-146-trigger-points-640w.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+
+
+  {
+    id: 9,
+    name: "Lower Back Pinched Nerve",
+    image:
+    "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+  {
+    id: 10,
+    name: "Deep Tissue",
+    image:
+      "https://bendtotalbodychiropractic.com/wp-content/uploads/2022/04/deep-tissue-massage-on-back.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+  {
+    id: 11,
+    name: "Chronic Pain",
     image:
       "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+  {
+    id: 12,
+    name: "Tight Muscles",
+    image:
+      "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+  {
+    id: 13,
+    name: "Chiropractic Care",
+    image:
+      "https://texasspecialtyclinic.com/assets/images/blog/chronic-pain-causes-symptoms-and-treatment.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+  {
+    id: 14,
+    name: "Carpal Tunnel Relief",
+    image:
+      "https://www.amtamassage.org/contentassets/85a24d12481f431ca2959e25b3a85082/1920x986-mtj-spring-2014-3.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+  {
+    id: 15,
+    name: "Forearm Massage Therapy",
+    image:
+      "https://evergreenclinic.ca/wp-content/uploads/2020/12/The-Forearm-Massage-Therapy-Techniques-for-Golfers-and-Tennis-Elbow.jpg",
+    price: 1899,
+    originalPrice: 2000
+
+  },
+  {
+    id: 16,
+    name: "Myofascial Massage Therapy",
+    image:
+      "https://embed.widencdn.net/img/veritas/54mogczwl1/1200x675px/myofascial-release-therapy.webp",
     price: 1899,
     originalPrice: 2000
 

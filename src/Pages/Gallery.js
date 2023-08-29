@@ -16,11 +16,7 @@ return (
     <>
 
     <Header/>
-
-    <Slider/>
-
     <Grid/>
-
     <Footer/>
     
     
