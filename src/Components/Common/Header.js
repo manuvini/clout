@@ -10,18 +10,18 @@ function Header() {
 
   return (
     <>
-      <header className="bg-black py-4">
+      <header className="bg-white-200 py-4">
         <nav className="flex items-center justify-between max-w-6xl mx-auto px-4">
           <div className="flex items-center space-x-2">
             {/* Your logo */}
-            <a href="#" className="text-white text-2xl pl-5">
+            <a href="#" className="text-black text-2xl pl-5">
               Ehikka
             </a>
           </div>
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className="text-white text-2xl focus:outline-none"
+              className="text-black text-2xl focus:outline-none"
             >
               {/* Hamburger menu icon */}
               <svg
@@ -44,7 +44,7 @@ function Header() {
             <li>
               <Link
                 to={"/"}
-                className="text-white hover:text-blue-300"
+                className="text-black hover:text-blue-300"
               >
                 Home
               </Link>
@@ -52,7 +52,7 @@ function Header() {
             <li>
               <Link
                 to={'/about'}
-                className="text-white hover:text-blue-300"
+                className="text-black hover:text-blue-300"
               >
                 About
               </Link>
@@ -60,7 +60,7 @@ function Header() {
             <li>
               <Link
                 to={"/Gallery"}
-                className="text-white hover:text-blue-300"
+                className="text-black hover:text-blue-300"
               >
                 Gallery
               </Link>
@@ -68,7 +68,7 @@ function Header() {
             <li>
               <Link
                 to={"/Services"}
-                className="text-white hover:text-blue-300"
+                className="text-black hover:text-blue-300"
               >
                 Services
               </Link>
@@ -76,7 +76,7 @@ function Header() {
             <li>
               <Link
                 to = {'/Contact'}
-                className="text-white hover:text-blue-300"
+                className="text-black hover:text-blue-300"
               >
                 Contact
               </Link>
@@ -95,7 +95,7 @@ function Header() {
           <li>
             <a
               href="#"
-              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+              className="text-black hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               Home
             </a>
