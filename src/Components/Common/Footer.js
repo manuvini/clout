@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
-              <h1 className="text-3xl font-bold text-green-300 mb-4">
+              <h1 className="text-3xl font-bold text-white mb-4">
                 Ehikka 
               </h1>
               {/* <img

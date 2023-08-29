@@ -10,11 +10,11 @@ function Header() {
 
   return (
     <>
-      <header className="bg-white-200 py-4">
+      <header className="bg-slate-900 py-4">
         <nav className="flex items-center justify-between max-w-6xl mx-auto px-4">
           <div className="flex items-center space-x-2">
             {/* Your logo */}
-            <a href="#" className="text-black text-2xl pl-5">
+            <a href="#" className="text-white text-2xl pl-5">
               Ehikka
             </a>
           </div>
@@ -44,7 +44,7 @@ function Header() {
             <li>
               <Link
                 to={"/"}
-                className="text-black hover:text-blue-300"
+                className="text-white hover:text-blue-300"
               >
                 Home
               </Link>
@@ -52,7 +52,7 @@ function Header() {
             <li>
               <Link
                 to={'/about'}
-                className="text-black hover:text-blue-300"
+                className="text-white hover:text-blue-300"
               >
                 About
               </Link>
@@ -60,7 +60,7 @@ function Header() {
             <li>
               <Link
                 to={"/Gallery"}
-                className="text-black hover:text-blue-300"
+                className="text-white hover:text-blue-300"
               >
                 Gallery
               </Link>
@@ -68,7 +68,7 @@ function Header() {
             <li>
               <Link
                 to={"/Services"}
-                className="text-black hover:text-blue-300"
+                className="text-white hover:text-blue-300"
               >
                 Services
               </Link>
@@ -76,7 +76,7 @@ function Header() {
             <li>
               <Link
                 to = {'/Contact'}
-                className="text-black hover:text-blue-300"
+                className="text-white hover:text-blue-300"
               >
                 Contact
               </Link>
