@@ -76,11 +76,7 @@ const Footer = () => {
                     Service Policy
                   </a>
                 </li>
-                <li>
-                  <a href="/refundpolicy" className="hover:underline">
-                    Refund Policy
-                  </a>
-                </li>
+                
               </ul>
             </div>
           </div>
