@@ -216,14 +216,14 @@ const ProductListing = ({ category }) => {
               style={{ height: "100%", minHeight: "260px" }} // Set min height for responsive square shape
             >
               <div className="relative block" to={"product/" + product.id}>
-                <div className="absolute top-1 right-1 font-bold rounded p-2 bg-yellow-400 percentage-off">
+                {/* <div className="absolute top-1 right-1 font-bold rounded p-2 bg-yellow-400 percentage-off">
                   {(
                     ((product.originalPrice - product.price) /
                       product.originalPrice) *
                     100
                   ).toFixed(0)}
                   % Off
-                </div>
+                </div> */}
                 <img
                   src={product.image}
                   alt={product.name}
@@ -231,9 +231,9 @@ const ProductListing = ({ category }) => {
                 />
                 <h3 className="text-lg font-semibold mb-2 line-clamp-1	">{product.name}</h3>
                 <div className="flex flex-column justify-center gap-2">
-                  <p className="font-bold mb-2 text-red-500 line-through">
+                  {/* <p className="font-bold mb-2 text-red-500 line-through">
                     ₹{product.originalPrice}
-                  </p>
+                  </p> */}
                   <p className="text-gray-600 font-bold mb-2">
                     ₹{product.price}
                   </p>

@@ -7,6 +7,9 @@ import Slider from '../Components/Common/Slider';
 import ProductListing from '../Components/Common/SectionProducts';
 import WhatsApp from '../Components/Common/WhatsApp';
 import Notice from '../Components/Common/Notice';
+import HomeCenter from '../Components/HomePage.js/HomeCenter';
+import ServiceSlider from '../Components/HomePage.js/ServiceSlider';
+import ReviewsSection from '../Components/HomePage.js/ReviewsSection';
     
 function App() {
   return (
@@ -16,8 +19,13 @@ function App() {
     </Header>
 
     <Slider></Slider>
-    <ProductListing></ProductListing>
+    {/* <ProductListing></ProductListing> */}
 
+<HomeCenter/>
+
+<ServiceSlider/>
+
+<ReviewsSection/>
 <WhatsApp/>
 
     <Footer></Footer>

@@ -1,6 +1,6 @@
 const Notice = () => {
     return (
-      <div className="bg-white text-black py-2 px-4 flex justify-between items-center">
+<div className="bg-white text-gray-500 py-2 px-4 flex justify-between items-center fixed top-0 left-0 right-0 z-10">
         <div>
           <a href="mailto:ehikka@gmail.com" className="mr-4">
             ehikka@gmail.com
@@ -30,7 +30,7 @@ const Notice = () => {
               <path d="M22 12.009c0-5.524-4.476-10-10-10s-10 4.476-10 10c0 4.937 3.61 9.007 8.317 9.816v-7.005h-2.497v-2.941h2.497v-2.198c0-2.467 1.464-3.827 3.721-3.827 1.071 0 1.988.079 2.254.114v2.588h-1.545c-1.212 0-1.449.576-1.449 1.423v1.862h2.896l-.379 2.941h-2.517v7.056c4.707-.809 8.308-4.879 8.308-9.816z" />
             </svg>
           </a>
-          <a href="#" className="px-4 py-2  text-white bg-yellow-400 rounded">
+          <a href="#" className="px-4 py-2  text-white bg-yellow-500 rounded">
             Book Now
           </a>
         </div>
