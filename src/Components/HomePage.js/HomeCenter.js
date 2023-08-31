@@ -10,10 +10,9 @@ const HomeCenter = () => {
                 <div className="grid md:grid-cols-2 gap-5 p-10 items-center">
 
                     <div className="md:ml-6">
-                        <h3 className="text-2xl font-semibold mb-4 text-gray-800">Experience Tranquility</h3>
+                        <h3 className="text-2xl font-semibold mb-4 text-gray-800">Neuropathic Pain</h3>
                         <p className="text-lg text-gray-600 mb-6">
-                            At Ehikka, we provide a serene and tranquil environment where you can escape the stresses of modern life and experience the healing benefits of massage therapy.
-                        </p>
+                        Nestled within Ehikka's embrace is a haven of tranquility, meticulously crafted to offer respite from the relentless demands of contemporary existence; here, amidst our serene and tranquil environment, the art of massage therapy intertwines with the very essence of healing, inviting you to embark on a journey that harmonizes mind, body, and spirit, and to rediscover the profound rejuvenation that emerges when one escapes the cacophony of the world and surrenders to the restorative embrace of expertly administered massages.                        </p>
                         {/* ... Rest of the content ... */}
                     </div>
 
@@ -39,9 +38,9 @@ const HomeCenter = () => {
                     </div>
 
                     <div className="md:ml-6 self-center">
-                        <h3 className="text-2xl font-semibold mb-4 text-gray-800">Experience Tranquility</h3>
+                        <h3 className="text-2xl font-semibold mb-4 text-gray-800">Sacroiliac Joint Pain</h3>
                         <p className="text-lg text-gray-600 mb-6">
-                            At Ehikka, we provide a serene and tranquil environment where you can escape the stresses of modern life and experience the healing benefits of massage therapy.
+                        Nestled within Ehikka's embrace is a haven of tranquility, meticulously crafted to offer respite from the relentless demands of contemporary existence; here, amidst our serene and tranquil environment, the art of massage therapy intertwines with the very essence of healing, inviting you to embark on a journey that harmonizes mind, body, and spirit, and to rediscover the profound rejuvenation that emerges when one escapes the cacophony of the world and surrenders to the restorative embrace of expertly administered massages.
                         </p>
                         {/* ... Rest of the content ... */}
                     </div>
