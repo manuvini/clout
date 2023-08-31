@@ -9,8 +9,12 @@ const About = () => {
 
     return(
         <>
-        <Notice/>
-        <Header/>
+         <div
+    className='sticky top-0 z-50'
+    ><Notice/>
+    <Header/>
+
+    </div>
         <AboutUs/>
         <WhatsApp/>
         <Footer/>

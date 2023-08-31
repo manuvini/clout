@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <>
-      <header className="bg-black py-4">
+      <header className="bg-black  py-4">
         <nav className="flex items-center justify-between max-w-6xl mx-auto px-4">
           <div className="flex items-center space-x-2">
             {/* Your logo */}

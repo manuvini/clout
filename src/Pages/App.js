@@ -10,22 +10,30 @@ import Notice from '../Components/Common/Notice';
 import HomeCenter from '../Components/HomePage.js/HomeCenter';
 import ServiceSlider from '../Components/HomePage.js/ServiceSlider';
 import ReviewsSection from '../Components/HomePage.js/ReviewsSection';
+import HorizontalProductView from '../Components/HomePage.js/ServiceSlider';
+import TestimonialSection from '../Components/HomePage.js/ReviewsSection';
     
 function App() {
   return (
     <>
-    <Notice/>
-    <Header>
-    </Header>
+
+    <div
+    className='sticky top-0 z-50'
+    ><Notice/>
+    <Header/>
+
+    </div>
+    
+    
 
     <Slider></Slider>
     {/* <ProductListing></ProductListing> */}
 
 <HomeCenter/>
 
-<ServiceSlider/>
+<HorizontalProductView/>
 
-<ReviewsSection/>
+<TestimonialSection/>
 <WhatsApp/>
 
     <Footer></Footer>

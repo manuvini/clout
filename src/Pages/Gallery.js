@@ -16,8 +16,12 @@ return (
 
 
     <>
-<Notice/>
+ <div
+    className='sticky top-0 z-50'
+    ><Notice/>
     <Header/>
+
+    </div>
     <Grid/>
     <WhatsApp/>
 
