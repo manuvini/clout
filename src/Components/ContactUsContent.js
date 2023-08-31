@@ -34,7 +34,7 @@ const ContactContent = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600"
+                                className="bg-blue-500 text-white px-8 py-2 rounded hover:bg-blue-600"
                             >
                                 Submit
                             </button>
@@ -44,17 +44,17 @@ const ContactContent = () => {
             </div>
 
             <div className="h-64">
-                <iframe
-                    title="Map"
-                    width="100%"
-                    height="100%"
-                    frameBorder="0"
-                    scrolling="no"
-                    marginHeight="0"
-                    marginWidth="0"
-                    src={`https://www.openstreetmap.org/export/embed.html?bbox=77.5011%2C12.9279%2C77.6419%2C13.0072&layer=mapnik`}
-                ></iframe>
-            </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d514.643387419351!2d77.55838266997189!3d12.98997620823814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d8b21782bf5%3A0xbd38d7283e543dd!2sPunjab%20National%20Bank!5e0!3m2!1sen!2sin!4v1693468001208!5m2!1sen!2sin"
+    width="100%"
+    height="100%"
+    frameBorder="0"
+    style={{ border: "0" }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
         </>
     );
 };

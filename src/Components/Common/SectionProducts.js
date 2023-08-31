@@ -205,51 +205,32 @@ const ProductListing = ({ category }) => {
       {sampleProducts == null ? (
         <>Loading...</>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
 
 
 
           {sampleProducts.map((product) => (
-            <div
-              key={product.id}
-              className="bg-white p-4 py-10 rounded-lg text-center shadow-md flex flex-col justify-between"
-              style={{ height: "100%", minHeight: "260px" }} // Set min height for responsive square shape
-            >
-              <div className="relative block" to={"product/" + product.id}>
-                {/* <div className="absolute top-1 right-1 font-bold rounded p-2 bg-yellow-400 percentage-off">
-                  {(
-                    ((product.originalPrice - product.price) /
-                      product.originalPrice) *
-                    100
-                  ).toFixed(0)}
-                  % Off
-                </div> */}
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-80 object-cover mb-2"
-                />
-                <h3 className="text-lg font-semibold mb-2 line-clamp-1	">{product.name}</h3>
-                <div className="flex flex-column justify-center gap-2">
-                  {/* <p className="font-bold mb-2 text-red-500 line-through">
-                    ₹{product.originalPrice}
-                  </p> */}
-                  <p className="text-gray-600 font-bold mb-2">
-                    ₹{product.price}
-                  </p>
-                </div>
-              </div>
-              {/* <button
-                onClick={() => {
-                  // addToCart(product.id);
-                  // IncrementAddToCart();
-                }}
-                className="flex-1 bg-green-400 text-black font-bold py-2 px-4 rounded-sm border border-black"
-                style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
-              >
-                Book Your Service
-              </button> */}
-            </div>
+           <div
+           key={product.id}
+           className="bg-white p-4 py-10 rounded-lg text-center shadow-md flex justify-between"
+           style={{ height: "100%", minHeight: "260px" }}
+         >
+           <div className="w-2/3">
+             <img
+               src={product.image}
+               alt={product.name}
+               className="w-96 h-80 object-cover mb-2"
+             />
+             
+           </div>
+           <div className="w-1/2 pl-2">
+           <h3 className="text-lg font-semibold mb-2 line-clamp-1">{product.name}</h3>
+             <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! 
+             Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe
+              quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.</p>           </div>
+         </div>
+         
           ))}
         </div>
       )}
