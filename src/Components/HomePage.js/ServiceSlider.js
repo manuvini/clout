@@ -63,89 +63,89 @@ const sampleProducts = [
 
   },
 
-  {
-    id: 8,
-    name: "Trigger Point",
-    image:
-      "https://lirp.cdn-website.com/2c25dec1/dms3rep/multi/opt/article-146-trigger-points-640w.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // {
+  //   id: 8,
+  //   name: "Trigger Point",
+  //   image:
+  //     "https://lirp.cdn-website.com/2c25dec1/dms3rep/multi/opt/article-146-trigger-points-640w.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
+  // },
 
 
-  {
-    id: 9,
-    name: "Lower Back Pinched Nerve",
-    image:
-    "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // {
+  //   id: 9,
+  //   name: "Lower Back Pinched Nerve",
+  //   image:
+  //   "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
-  {
-    id: 10,
-    name: "Deep Tissue",
-    image:
-      "https://bendtotalbodychiropractic.com/wp-content/uploads/2022/04/deep-tissue-massage-on-back.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // },
+  // {
+  //   id: 10,
+  //   name: "Deep Tissue",
+  //   image:
+  //     "https://bendtotalbodychiropractic.com/wp-content/uploads/2022/04/deep-tissue-massage-on-back.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
-  {
-    id: 11,
-    name: "Chronic Pain",
-    image:
-      "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // },
+  // {
+  //   id: 11,
+  //   name: "Chronic Pain",
+  //   image:
+  //     "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
-  {
-    id: 12,
-    name: "Tight Muscles",
-    image:
-      "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // },
+  // {
+  //   id: 12,
+  //   name: "Tight Muscles",
+  //   image:
+  //     "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
-  {
-    id: 13,
-    name: "Chiropractic Care",
-    image:
-      "https://texasspecialtyclinic.com/assets/images/blog/chronic-pain-causes-symptoms-and-treatment.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // },
+  // {
+  //   id: 13,
+  //   name: "Chiropractic Care",
+  //   image:
+  //     "https://texasspecialtyclinic.com/assets/images/blog/chronic-pain-causes-symptoms-and-treatment.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
-  {
-    id: 14,
-    name: "Carpal Tunnel Relief",
-    image:
-      "https://www.amtamassage.org/contentassets/85a24d12481f431ca2959e25b3a85082/1920x986-mtj-spring-2014-3.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // },
+  // {
+  //   id: 14,
+  //   name: "Carpal Tunnel Relief",
+  //   image:
+  //     "https://www.amtamassage.org/contentassets/85a24d12481f431ca2959e25b3a85082/1920x986-mtj-spring-2014-3.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
-  {
-    id: 15,
-    name: "Forearm Massage Therapy",
-    image:
-      "https://evergreenclinic.ca/wp-content/uploads/2020/12/The-Forearm-Massage-Therapy-Techniques-for-Golfers-and-Tennis-Elbow.jpg",
-    price: 1899,
-    originalPrice: 2000
+  // },
+  // {
+  //   id: 15,
+  //   name: "Forearm Massage Therapy",
+  //   image:
+  //     "https://evergreenclinic.ca/wp-content/uploads/2020/12/The-Forearm-Massage-Therapy-Techniques-for-Golfers-and-Tennis-Elbow.jpg",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
-  {
-    id: 16,
-    name: "Myofascial Massage Therapy",
-    image:
-      "https://embed.widencdn.net/img/veritas/54mogczwl1/1200x675px/myofascial-release-therapy.webp",
-    price: 1899,
-    originalPrice: 2000
+  // },
+  // {
+  //   id: 16,
+  //   name: "Myofascial Massage Therapy",
+  //   image:
+  //     "https://embed.widencdn.net/img/veritas/54mogczwl1/1200x675px/myofascial-release-therapy.webp",
+  //   price: 1899,
+  //   originalPrice: 2000
 
-  },
+  // },
 ];
 
 const HorizontalProductView = () => {

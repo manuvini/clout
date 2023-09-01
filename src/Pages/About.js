@@ -7,17 +7,17 @@ import WhatsApp from "../Components/Common/WhatsApp"
 
 const About = () => {
 
-    return(
+    return (
         <>
-         <div
-    className='sticky top-0 z-50'
-    ><Notice/>
-    <Header/>
+            <div
+                className='sticky top-0 z-50'
+            ><Notice />
+                <Header />
 
-    </div>
-        <AboutUs/>
-        <WhatsApp/>
-        <Footer/>
+            </div>
+            <AboutUs />
+            <WhatsApp />
+            <Footer />
         </>
     )
 }

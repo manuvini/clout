@@ -2,8 +2,8 @@ import React from 'react';
 
 const WhatsApp = () => {
     const openChat = () => {
-        const phoneNumber = '+91 9035076663'; // Replace with the actual phone number
-        const message = 'Hello! I need assistance.'; // Replace with the desired message
+        const phoneNumber = '+91 999999999'; 
+        const message = 'Hello! I need assistance.'; 
 
         const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 

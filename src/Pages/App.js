@@ -12,49 +12,49 @@ import ServiceSlider from '../Components/HomePage.js/ServiceSlider';
 import ReviewsSection from '../Components/HomePage.js/ReviewsSection';
 import HorizontalProductView from '../Components/HomePage.js/ServiceSlider';
 import TestimonialSection from '../Components/HomePage.js/ReviewsSection';
-    
+
 function App() {
   return (
     <>
 
-    <div
-    className='sticky top-0 z-50'
-    ><Notice/>
-    <Header/>
+      <div
+        className='sticky top-0 z-50'
+      ><Notice />
+        <Header />
 
-    </div>
-    
-    
-
-    <Slider></Slider>
-    {/* <ProductListing></ProductListing> */}
-
-<HomeCenter/>
-
-<HorizontalProductView/>
-
-<TestimonialSection/>
-<WhatsApp/>
-
-    <Footer></Footer>
+      </div>
 
 
+
+      <Slider></Slider>
+      {/* <ProductListing></ProductListing> */}
+
+      <HomeCenter />
+
+      <HorizontalProductView />
+
+      <TestimonialSection />
+      <WhatsApp />
+
+      <Footer></Footer>
 
 
 
 
-    {/* <div className="mt-8">
+
+
+      {/* <div className="mt-8">
         <Grid />
       </div> */}
-    
 
-    
-{/* <BottomNavigation></BottomNavigation> */}
 
-  
-    
-    </> 
-    
+
+      {/* <BottomNavigation></BottomNavigation> */}
+
+
+
+    </>
+
   );
 }
 

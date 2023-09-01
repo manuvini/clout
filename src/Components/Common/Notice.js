@@ -1,3 +1,14 @@
+
+const openChat = () => {
+    const phoneNumber = '+91 9999999999'; 
+    const message = 'Hello! I need assistance.'; 
+  
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+  
+    window.location.href = url;
+  };
+
+
 const Notice = () => {
     return (
 <div className=" bg-teal-200 text-black py-1 px-4 flex justify-between items-center stop-0 z-50">
@@ -7,8 +18,8 @@ const Notice = () => {
                     ehikka@gmail.com
                 </a>
                 <span className="mr-4">|</span>
-                <a href="tel:+919035076663" className="mr-4">
-                    +91 9035076663
+                <a href="tel:+919999999999" className="mr-4">
+                    +91 9999999999
                 </a>
             </div>
             <div className="flex jusify-center flex-coloumn items-center space-x-4">
@@ -31,9 +42,9 @@ const Notice = () => {
                         <path d="M22 12.009c0-5.524-4.476-10-10-10s-10 4.476-10 10c0 4.937 3.61 9.007 8.317 9.816v-7.005h-2.497v-2.941h2.497v-2.198c0-2.467 1.464-3.827 3.721-3.827 1.071 0 1.988.079 2.254.114v2.588h-1.545c-1.212 0-1.449.576-1.449 1.423v1.862h2.896l-.379 2.941h-2.517v7.056c4.707-.809 8.308-4.879 8.308-9.816z" />
                     </svg>
                 </a>
-                <a href="#" className="px-4 py-2  text-white bg-yellow-500 rounded">
-                    Book Now
-                </a>
+                <button onClick={openChat} className="px-4 py-2 text-white bg-yellow-500 rounded">
+          Book Now
+        </button>
             </div>
         </div>
     );
