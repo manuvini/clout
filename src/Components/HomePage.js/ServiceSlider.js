@@ -5,7 +5,7 @@ const sampleProducts = [
     id: 1,
     name: "Sciatica",
     image:
-      "https://domf5oio6qrcr.cloudfront.net/medialibrary/12453/9000ebcd-8502-45fe-b305-de3a0b43ced2.jpg",
+      "https://media.istockphoto.com/id/1436677836/photo/male-shirtless-body-pain-on-spinal-cord-anatomy-with-red-mark-on-spine.jpg?s=612x612&w=0&k=20&c=0SzxWaJUH4-nYilG37GKLtsLApJrBwJZt5jsXY09sfQ=",
     price: 1125,
     originalPrice: 2000
   },
@@ -21,7 +21,7 @@ const sampleProducts = [
     id: 3,
     name: "Neuropathic Pain",
     image:
-      "https://www.removemypain.com/blog/wp-content/uploads/2019/01/Know-All-About-the-Treatment-Options-for-Neuropathic-Pain.jpg",
+      "https://media.istockphoto.com/id/1354793940/photo/closeup-of-female-holding-her-painful-palm-and-numbness-caused-by-prolonged-work-on-the.jpg?s=612x612&w=0&k=20&c=kR7RR-uKWFSfP3rRi6-f7MP5KBswqdNO5rmoWqAO4XI=",
     price: 1069,
     originalPrice: 2000
   },
@@ -38,7 +38,7 @@ const sampleProducts = [
     id: 5,
     name: "Groin Nerve Pain",
     image:
-      "https://dg0qqklufr26k.cloudfront.net/wp-content/uploads/2020/11/Groin-Pain-1024X768.jpg",
+      "https://media.istockphoto.com/id/512753579/photo/targeting-back-pain.jpg?s=612x612&w=0&k=20&c=iggJ53X9AQvk5W7WKDWheI5ZKGPuXjXYUR_dv1QAy_Y=",
     price: 1035,
     originalPrice: 2000
 
@@ -47,7 +47,7 @@ const sampleProducts = [
     id: 6,
     name: "Sacroiliac Joint Pain",
     image:
-      "https://somaticmovementcenter.com/wp-content/uploads/2019/07/Sijoint.jpg",
+      "https://media.istockphoto.com/id/1224225062/photo/man-is-receiving-back-massage.jpg?s=612x612&w=0&k=20&c=tadx6JV_EKez9zoowYt3UJzl9K2nZPtI1L53_uBIIVs=",
     price: 1535,
     originalPrice: 2000
 
@@ -57,28 +57,28 @@ const sampleProducts = [
     id: 7,
     name: "Pinched Nerve In Lower Back",
     image:
-      "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
+      "https://media.istockphoto.com/id/841868238/photo/spine-pain-man-with-backache-and-ache-in-the-neck-black-and-white-photo-with-red-backbone.jpg?s=612x612&w=0&k=20&c=R2GTrIL72zpGdMDwDt32zRKQgk4JuR6sM4myVeWww90=",
     price: 1999,
     originalPrice: 2000
 
   },
 
-  // {
-  //   id: 8,
-  //   name: "Trigger Point",
-  //   image:
-  //     "https://lirp.cdn-website.com/2c25dec1/dms3rep/multi/opt/article-146-trigger-points-640w.jpg",
-  //   price: 1899,
-  //   originalPrice: 2000
+  {
+    id: 8,
+    name: "Trigger Point",
+    image:
+      "https://lirp.cdn-website.com/2c25dec1/dms3rep/multi/opt/article-146-trigger-points-640w.jpg",
+    price: 1899,
+    originalPrice: 2000
 
-  // },
+  },
 
 
   // {
   //   id: 9,
   //   name: "Lower Back Pinched Nerve",
   //   image:
-  //   "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
+  //   "https://t4.ftcdn.net/jpg/01/37/46/11/240_F_137461126_1TFmnf482xklPHlr15PEmcCfogYiz1Qq.jpg",
   //   price: 1899,
   //   originalPrice: 2000
 
@@ -96,7 +96,7 @@ const sampleProducts = [
   //   id: 11,
   //   name: "Chronic Pain",
   //   image:
-  //     "https://i.ytimg.com/vi/UotBIgJet_8/maxresdefault.jpg",
+  //     "https://media.istockphoto.com/id/1306646807/photo/patient-lying-on-the-stretcher-in-the-physiotherapy-clinic-is-treated-with-diathermy.jpg?s=612x612&w=0&k=20&c=PgacmWes2kZRNUJlo7chEkIa1G1a3gb8wo3rTlQU4jE=",
   //   price: 1899,
   //   originalPrice: 2000
 

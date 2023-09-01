@@ -3,8 +3,8 @@ import React, { useState, useEffect } from "react";
 
 
 const SliderData = [
-    "https://qph.cf2.quoracdn.net/main-qimg-6cd87e360529c7ecb2407880740ce269",
-    "https://www.mallikaspapune.com/public/uploads/service-11520606280.jpg"
+    "https://media.istockphoto.com/id/1274403122/photo/virtual-doctor-concept-the-doctors-hand-with-stethoscope-protrudes-from-the-laptop-screen-to.jpg?s=612x612&w=0&k=20&c=wjj6ZrpWTsTECQCWITf4zoKKURrAUnWRm82fOhpL6xE=",
+    "https://media.istockphoto.com/id/1157123157/photo/caregiver-carer-hand-holding-elder-hand-in-hospice-care-philanthropy-kindness-to-disabled.jpg?s=612x612&w=0&k=20&c=Xsi1y4TG2stUsOcL9e0WsX_-UTAHMLFvYvViPeejOpU="
 
 
 ]

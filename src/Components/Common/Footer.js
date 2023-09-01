@@ -19,10 +19,10 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2 md:grid-cols-3">
             <div className='w-1000'>
-              <h2 className="mb-4 text-sm font-semibold text-white uppercase">
+              <h2 className="mb-4 text-xl font-semibold text-white uppercase">
                 Contact Info
               </h2>
-              <ul className="mr-8 text-gray-400 font-medium">
+              <ul className="mr-8 text-gray-400 font-medium text-lg">
                 <li className="mb-2">Some Adress</li>
                 <li className="mb-2">Bangalore, India- 560035</li>
                 <li className="mb-2">+91 999999999   </li>
@@ -30,10 +30,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-4 text-sm font-semibold text-white uppercase ">
+              <h2 className="mb-4 text-sm font-semibold text-white uppercase text-xl ">
                 Links
               </h2>
-              <ul className="text-gray-400 font-medium">
+              <ul className="text-gray-400 font-medium text-lg">
                 <li className="mb-2">
                   <a href="/" className="hover:underline">
                     Home
@@ -57,10 +57,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-4 text-sm font-semibold uppercase text-white">
+              <h2 className="mb-4 text-sm font-semibold uppercase text-white text-xl">
                 Legal
               </h2>
-              <ul className="text-gray-400 font-medium">
+              <ul className="text-gray-400 font-medium text-lg">
                 <li className="mb-2">
                   <a href="/privacypolicy" className="hover:underline">
                     Privacy Policy
