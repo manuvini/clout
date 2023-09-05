@@ -6,6 +6,7 @@ import Services from "./Pages/Services"
 import Gallery from "./Pages/Gallery"
 import PrivacyPolicy from "./Pages/PrivacyPolicy"
 import TermsConditions from "./Pages/Terms&Conditions"
+import ServicePolicy from "./Pages/ServicePolicy"
 
 const Router = () => {
 
@@ -29,6 +30,7 @@ const Router = () => {
                     <Route path="/privacypolicy" element={<PrivacyPolicy/>}></Route>
 
 
+                    <Route path="/servicepolicy" element={<ServicePolicy/>}></Route>
 
 
         <Route path="/contact" element={<Contact/>}></Route>

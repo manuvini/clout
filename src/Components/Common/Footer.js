@@ -72,7 +72,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/shippingpolicy" className="hover:underline">
+                  <a href="/servicepolicy" className="hover:underline">
                     Service Policy
                   </a>
                 </li>
