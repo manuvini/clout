@@ -1,45 +1,68 @@
-import React from "react";
-import Footer from "../Components/Common/Footer";
-import Header from "../Components/Common/Header";
+import React from 'react';
+import Header from '../Components/Common/Header';
+import Notice from '../Components/Common/Notice';
+import Footer from '../Components/Common/Footer';
 
 const ServicePolicy = () => {
-  return (
-    <>
-      <Header />
+    return (
+        <>
+            <Notice />
+            <Header />
 
-      <div className="container mx-auto p-8">
-        <h1 className="text-3xl font-bold mb-6 text-center">Service Policy</h1>
+            <div className="justify-center p-10">
+                <h1 className="text-3xl flex font-bold justify-center p-10 text-3xl">Service Policy</h1>
+                <div>
+                    <p className="text-black text-xl mb-4">
+                        This Service Policy governs your use of services provided by Ehikka Corporation (“Ehikka”). By accessing and using our services, you agree to comply with this policy and any other applicable terms and conditions.
+                    </p>
 
-        <div className="prose">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            venenatis tincidunt felis, sit amet facilisis purus dignissim eu.
-            Vivamus eu velit libero. Vivamus dapibus a urna sed tristique.
-            Donec tincidunt metus et justo iaculis, a consectetur arcu
-            facilisis. Sed eu libero sit amet tellus bibendum volutpat. Integer
-            aliquam ligula sit amet tortor tincidunt euismod.
-          </p>
+                    <section>
+                        <h2 className="text-black text-2xl mb-4 font-bold">Service Availability</h2>
+                        <p className="text-black text-xl mb-4">
+                            1. Ehikka strives to ensure the availability of its services but does not guarantee uninterrupted access to its platforms or websites. We may temporarily suspend or discontinue services for maintenance or other reasons without prior notice.<br />
+                            2. You are responsible for ensuring that you have the necessary equipment, software, and internet connectivity to access and use our services.
+                        </p>
+                    </section>
 
-          <p>
-            Quisque at semper libero. Vestibulum feugiat tortor a orci
-            fermentum, vel volutpat ligula aliquam. Cras eu eros at nulla
-            facilisis lacinia. Vivamus at bibendum elit, nec eleifend urna.
-            Proin posuere, lorem nec feugiat rhoncus, justo ipsum dapibus nisi,
-            vel lacinia velit arcu vel libero.
-          </p>
+                    <section>
+                        <h2 className="text-black text-2xl mb-4 font-bold">Acceptable Use</h2>
+                        <p className="text-black text-xl mb-4">
+                            3. You agree to use our services in compliance with all applicable laws and regulations.<br />
+                            4. You shall not engage in any unlawful, harmful, or abusive activities while using our services, including but not limited to spamming, hacking, or distributing malicious software.<br />
+                            5. We reserve the right to terminate or suspend your access to our services if you violate this policy or engage in any unauthorized or harmful activities.
+                        </p>
+                    </section>
 
-          <p>
-            Nullam viverra quam eu pharetra aliquet. Sed scelerisque velit vel
-            velit efficitur, sit amet dictum orci tincidunt. Duis nec
-            vestibulum libero, nec fringilla ante. Nullam eu urna vestibulum,
-            volutpat nisl ut, auctor nulla.
-          </p>
-        </div>
-      </div>
+                    <section>
+                        <h2 className="text-black text-2xl mb-4 font-bold">Content Ownership</h2>
+                        <p className="text-black text-xl mb-4">
+                            6. Any content you submit or upload to our platforms remains your property. However, by using our services, you grant Ehikka a non-exclusive, worldwide, royalty-free license to use, reproduce, modify, and distribute your content for the purpose of providing and improving our services.<br />
+                            7. Ehikka may remove or disable access to content that violates this policy or is deemed inappropriate or harmful.
+                        </p>
+                    </section>
 
-      <Footer />
-    </>
-  );
+                    <section>
+                        <h2 className="text-black text-2xl mb-4 font-bold">Changes to Service Policy</h2>
+                        <p className="text-black text-xl mb-4">
+                            8. Ehikka may update this Service Policy to reflect changes in our services or legal requirements. We will notify you of any significant changes.<br />
+                            9. Continued use of our services after the policy changes constitute your acceptance of the updated policy.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 className="text-black text-2xl mb-4 font-bold">Contact Us</h2>
+                        <p className="text-black text-xl mb-4">
+                            10. If you have any questions or concerns about this Service Policy or our services, please contact us at [contact email].
+                        </p>
+                    </section>
+                </div>
+
+                <p />
+            </div>
+
+            <Footer />
+        </>
+    )
 };
 
 export default ServicePolicy;
