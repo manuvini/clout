@@ -75,7 +75,7 @@ function Header() {
             </li>
             <li>
               <Link
-                to = {'/Contact'}
+                to={'/Contact'}
                 className="text-white text-xl hover:text-blue-300"
               >
                 Contact
@@ -94,7 +94,7 @@ function Header() {
       >       <ul className="bg-black text-white flex-col py-2 space-y-1 lg:space-y-0 lg:flex-row lg:space-x-6">
           <li>
             <Link
-            to = {"/"}
+              to={"/"}
               href="#"
               className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
@@ -103,16 +103,16 @@ function Header() {
           </li>
           <li>
             <Link
-            to = {"/about"}
-            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+              to={"/about"}
+              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               About
             </Link>
           </li>
           <li>
             <Link
-            to = {"/gallery"}
-            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+              to={"/gallery"}
+              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               Gallery
             </Link>
@@ -121,16 +121,16 @@ function Header() {
 
           <li>
             <Link
-            to = {"/services"}
-            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+              to={"/services"}
+              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               Services
             </Link>
           </li>
           <li>
             <Link
-            to = {"/contact"}
-            className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
+              to={"/contact"}
+              className="text-white hover:text-blue-300 block lg:inline-block lg:text-white p-2 px-6 border-b border-gray-700"
             >
               Contact
             </Link>
