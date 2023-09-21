@@ -160,7 +160,7 @@ const sampleProducts = [
     id: 15,
     name: "Forearm Massage Therapy",
     image:
-      "https://evergreenclinic.ca/wp-content/uploads/2020/12/The-Forearm-Massage-Therapy-Techniques-for-Golfers-and-Tennis-Elbow.jpg",
+      "https://www.xopt1.com/wp-content/uploads/2022/12/carpal-tunnel-massage-4.jpg",
     price: 1899,
     originalPrice: 2000,
     description: "Forearm massage therapy is a specific type of massage that focuses on the muscles and tissues of the forearm. This type of massage can be beneficial for various reasons, including relieving muscle tension, improving circulation, reducing pain, and enhancing overall relaxation in the forearm and can be particularly beneficial for individuals who experience tension, pain, or discomfort in this area."

@@ -33,7 +33,6 @@ const Router = () => {
                     <Route path="/servicepolicy" element={<ServicePolicy/>}></Route>
 
 
-        <Route path="/contact" element={<Contact/>}></Route>
 
                 </Routes>
 
