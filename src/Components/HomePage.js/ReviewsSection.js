@@ -14,6 +14,7 @@ const TestimonialSection = () => {
       author: 'Darshan',
       content: 'My experience at Ehikka was exceptional ,they offer is a testament to their commitment to quality and authenticity. If you are looking for a genuine, soul-soothing massage that encompasses the wisdom of ancient Indian practices, I wholeheartedly recommend giving this place a visit. I left with a contented heart, a relaxed body, and a promise to return for another dose of serenity.',
     },
+
     // Add more reviews here
   ];
 

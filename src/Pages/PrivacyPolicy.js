@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
             <Header />
 
             <div className="justify-center p-3">
-                <h1 className="text-3xl flex font-bold justify-center p-5 text-3xl">Privacy Policy</h1>
+                <h1 className="text-3xl font-bold mt-4 text-center ">Privacy Policy</h1> <br/>
                 <div>
                     <p className="text-black text-xl mb-4">
                         Ehikka Corporation (“Ehikka”) is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website or use our services. By accessing our website and using our services, you agree to the terms and practices described in this Privacy Policy.

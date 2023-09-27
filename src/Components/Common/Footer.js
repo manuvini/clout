@@ -25,7 +25,7 @@ const Footer = () => {
               <ul className="mr-8 text-gray-400 font-medium text-lg">
                 <li className="mb-2">Some Adress</li>
                 <li className="mb-2">Bangalore, India- 560035</li>
-                <li className="mb-2">+91 999999999   </li>
+                <li className="mb-2">+91 999999999 </li>
                 <li>contact@cloutservices.in</li>
               </ul>
             </div>

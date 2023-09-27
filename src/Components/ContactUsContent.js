@@ -55,6 +55,7 @@ const ContactContent = () => {
                                     className="w-full border px-3 py-2"
                                     required
                                     name="name"
+                                    placeholder='name'
                                     value={formData.name}
                                     onChange={handleChange}
                                 />
@@ -66,6 +67,8 @@ const ContactContent = () => {
                                     className="w-full border px-3 py-2"
                                     required
                                     name="phone"
+                                    placeholder='phone'
+
                                     value={formData.phone}
                                     onChange={handleChange}
                                 />
@@ -77,6 +80,7 @@ const ContactContent = () => {
                                     className="w-full border px-3 py-2"
                                     required
                                     name="email"
+                                    placeholder='email'
                                     value={formData.email}
                                     onChange={handleChange}
                                 />
@@ -87,6 +91,7 @@ const ContactContent = () => {
                                     className="w-full border px-3 py-2"
                                     required
                                     name="message"
+                                    placeholder='message'
                                     value={formData.message}
                                     onChange={handleChange}
                                 ></textarea>

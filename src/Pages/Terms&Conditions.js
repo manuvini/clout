@@ -10,7 +10,7 @@ const TermsConditions = () => {
             <Header />
 
             <div className="  justify-center p-3  ">
-                <h1 className="text-3xl flex font-bold justify-center p-5 text-3xl 3px"> Terms and Conditions</h1>
+                <h1 className="text-3xl font-bold mt-4 text-center"> Terms and Conditions</h1> <br />
                 <div>
 
                     <p className="text-black text-xl mb-4 3px">
@@ -30,7 +30,7 @@ const TermsConditions = () => {
                             Services Offered
                             Bonerve offers professional massage and therapy services. The specific services and pricing will be discussed and agreed upon before each session.<br />
 
-                             Payment and Cancellation Policy
+                            Payment and Cancellation Policy
                             Payment is due at the time of service, either in cash or through the accepted payment methods specified by Bonerve.
                             Appointments canceled with less than 24 hours' notice may be subject to a cancellation fee.<br />
 
@@ -40,61 +40,44 @@ const TermsConditions = () => {
                     <section>
                         <h2 className="text-black text-2xl mb-4 font-bold">Trademarks</h2>
                         <p className="text-black text-xl mb-4">
-                             Health and Medical Conditions
+                            Health and Medical Conditions
                             Clients are responsible for informing Bonerve of any medical conditions, injuries, allergies, or other health-related concerns that may affect the massage or therapy session.
                             Bonerve reserves the right to refuse service if a client's condition poses a risk to their health or safety.<br />
 
-                             Privacy and Confidentiality
+                            Privacy and Confidentiality
                             All client information and records will be kept confidential and in compliance with applicable privacy laws.
                             Client information will not be shared with third parties without the client's explicit consent, except when required by law.<br />
 
-                             Professionalism
+                            Professionalism
                             Clients are expected to behave in a respectful and professional manner during the session. Inappropriate behavior or comments will not be tolerated, and the session may be terminated without refund.<br />
 
                             Liability
                             Bonerve is not liable for any injuries, accidents, or adverse reactions that may occur as a result of the massage or therapy services.
                             Clients are responsible for their own well-being during and after the session.<br />
 
-                             Appointment Scheduling
+                            <br />
+
+                            Appointment Scheduling
                             Clients are responsible for scheduling appointments in advance.
                             Bonerve will make reasonable efforts to accommodate client preferences, but availability may vary.<br />
 
-                             Changes to Terms and Conditions
+                            Changes to Terms and Conditions
                             Bonerve reserves the right to update these terms and conditions at any time. Clients will be notified of any changes.<br />
 
-                             Termination of Service
+                            Termination of Service
                             - Bonerve reserves the right to refuse or terminate service to any client for any reason, including violations of these terms and conditions.<br />
 
-                             Governing Law
+                            Governing Law
                             - These terms and conditions are governed by and will be interpreted in accordance with the laws of our Jurisdiction.<br />
                             <br />
 
-                            <p>By booking an appointment with Bonerve, the client acknowledges that they have read, understood, and agreed to these terms and conditions.
-
-                                Bonerve Contact Information<br/>
-
-                                Bonerve<br/>
-                                +91 999999999<br/>
-                                bonerve@gmail.com<br/>
-                                www.bonerve.com<br/>
-                            </p>
-
+                            
                         </p>
                     </section>
-
-
                     <p />
                 </div>
-
-
-
             </div>
-
-
             <Footer />
-
-
-
         </>
     )
 };

@@ -9,7 +9,7 @@ const ServicePolicy = () => {
             <Notice />
             <Header />
             <div className="justify-center p-3">
-                <h1 className="text-3xl flex font-bold justify-center p-5 text-3xl">Service Policy</h1>
+                <h1 className="text-3xl font-bold mt-4 text-center">Service Policy</h1> <br/>
                 <div>
                     <p className="text-black text-xl mb-4">
                         This Service Policy governs your use of services provided by Ehikka Corporation (“Ehikka”). By accessing and using our services, you agree to comply with this policy and any other applicable terms and conditions.
