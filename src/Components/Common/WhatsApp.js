@@ -10,10 +10,10 @@ const WhatsApp = () => {
         window.location.href = url;
     };
     return (
-        <div className="fixed bottom-4 right-4 z-50">
+        <div className="fixed bottom-4 right-4 md:right-8 lg:right-12 xl:right-16 z-50">
             <button
                 onClick={openChat}
-                className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg"
+                className="bg-green-500 hover:bg-green-500 text-white p-3 md:p-4 lg:p-5 xl:p-6 rounded-full shadow-lg"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

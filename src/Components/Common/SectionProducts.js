@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const sampleProducts = [
-  
+
   {
     id: 1,
     name: "Sciatica",
@@ -184,9 +184,9 @@ const ProductListing = ({ category }) => {
 
   return (
     <div className="bg-gray-100 p-8">
-      <div className="text-3xl font-bold justify-center flex">Our Service</div>
+      <div className="text-3xl font-bold text-center">Our Service</div>
 
-      <h2 className="text-2xl font-semibold text-center mb-10">{category}</h2>
+      <h2 className="text-2xl font-semibold text-center mb-10 ">{category}</h2>
       {sampleProducts == null ? (
         <>Loading...</>
       ) : (

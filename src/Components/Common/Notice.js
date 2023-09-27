@@ -11,8 +11,7 @@ const openChat = () => {
 
 const Notice = () => {
     return (
-<div className=" bg-teal-200 text-black py-1 px-4 flex justify-between items-center stop-0 z-50">
-  
+<div className="bg-teal-200 text-black py-1 px-4 flex flex-col md:flex-row justify-between items-center md:space-x-4">  
             <div>
                 <a href="mailto:ehikka@gmail.com" className="mr-4 text-lg">
                     ehikka@gmail.com

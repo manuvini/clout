@@ -27,7 +27,7 @@ function App() {
 
 
 
-      <Slider/>
+      <Slider />
       {/* <ProductListing></ProductListing> */}
 
       <HomeCenter />
