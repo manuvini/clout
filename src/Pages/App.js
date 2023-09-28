@@ -16,47 +16,24 @@ import TestimonialSection from '../Components/HomePage.js/ReviewsSection';
 function App() {
   return (
     <>
-
       <div
         className='sticky top-0 z-50'
       ><Notice />
         <Header />
-
       </div>
-
-
-
-
       <Slider />
       {/* <ProductListing></ProductListing> */}
-
       <HomeCenter />
-
       <HorizontalProductView />
-
       <TestimonialSection />
       <WhatsApp />
 
       <Footer></Footer>
-
-
-
-
-
-
       {/* <div className="mt-8">
         <Grid />
       </div> */}
-
-
-
       {/* <BottomNavigation></BottomNavigation> */}
-
-
-
     </>
-
   );
 }
-
 export default App;

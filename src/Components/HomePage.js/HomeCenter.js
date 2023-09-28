@@ -15,7 +15,7 @@ const HomeCenter = () => {
                             A bone massage, also known as bone-setting or osteopathic manipulation, is a therapeutic technique used to manipulate and adjust bones and joints in order to promote healing and alleviate pain. It's often performed by skilled physical therapists.
                             The concept behind bone massage is that misalignments or restrictions in the bones and joints can lead to discomfort, and pain, and even affect the functioning of surrounding muscles and nerves. By applying specific techniques, practitioners aim to restore proper alignment, mobility, and balance to the musculoskeletal system.
                         </p>
-                        {/* ... Rest of the content ... */}
+                        
                     </div>
 
                     <div className="mb-6 md:mb-0">
@@ -42,11 +42,11 @@ const HomeCenter = () => {
                         <p className="text-xl text-gray-600 mb-6">
                             Nestled within Ehikka's embrace is a haven of tranquility, meticulously crafted to offer respite from the relentless demands of contemporary existence; here, amidst our serene and tranquil environment, the art of massage therapy intertwines with the very essence of healing, inviting you to embark on a journey that harmonizes mind, body, and spirit, and to rediscover the profound rejuvenation that emerges when one escapes the cacophony of the world and surrenders to the restorative embrace of expertly administered massages.
                         </p>
-                        {/* ... Rest of the content ... */}
+                        
                     </div>
                 </div>
 
-                {/* ... Rest of the content ... */}
+               
             </div>
         </section>
     );
