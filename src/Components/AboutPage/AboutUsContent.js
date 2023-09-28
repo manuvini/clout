@@ -3,9 +3,10 @@ import React from 'react';
 const AboutUs = () => {
   return (
     <div className="bg-gray-100 p-8">
+      <h1 className="text-3xl font-bold  text-center"> About Ehikka </h1>
+
       <div className="grid md:grid-cols-2 lg:p-10"> {/* Use grid for layout */}
         <div className="md:mr-5"> {/* Use margin for spacing between columns */}
-          <h1 className="text-3xl font-bold mb-9 text-center"> About Ehikka </h1>
 
           <p className="text-gray-700 text-xl mb-4">
             Ehikka is specializes in providing premium door-to-door therapy services. With a team of skilled and
