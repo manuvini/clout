@@ -1,19 +1,28 @@
 import React from 'react';
+import imageHomepageslider_1 from '../Common/img/imageHomepageslider_1.jpg'; 
+import imageHomepageslider_2 from '../Common/img/imageHomepageslider_2.jpg'
+import imageHomepageslider_3 from '../Common/img/imageHomepageslider_3.jpg'
+import imageHomepageslider_4 from '../Common/img/imageHomepageslider_4.jpg'
+import imageHomepageslider_5 from '../Common/img/imageHomepageslider_5.jpg'
+import imageHomepageslider_6 from '../Common/img/imageHomepageslider_6.jpg'
+import imageHomepageslider_7 from '../Common/img/imageHomepageslider_7.jpg'
+import imageHomepageslider_8 from '../Common/img/imageHomepageslider_8.jpg'
+
+
+
 
 const sampleProducts = [
   {
     id: 1,
     name: "Sciatica",
-    image:
-      "https://media.istockphoto.com/id/1436677836/photo/male-shirtless-body-pain-on-spinal-cord-anatomy-with-red-mark-on-spine.jpg?s=612x612&w=0&k=20&c=0SzxWaJUH4-nYilG37GKLtsLApJrBwJZt5jsXY09sfQ=",
-    price: 1125,
+    image: imageHomepageslider_1, 
     originalPrice: 2000
   },
   {
     id: 2,
     name: "Ciatic Nerve Pain",
     image:
-      "https://www.h-wave.com/wp-content/uploads/2019/03/sciatic-nerve-pain_850.jpg",
+      imageHomepageslider_2,
     price: 1250,
     originalPrice: 2000
   },
@@ -21,7 +30,7 @@ const sampleProducts = [
     id: 3,
     name: "Neuropathic Pain",
     image:
-      "https://media.istockphoto.com/id/1354793940/photo/closeup-of-female-holding-her-painful-palm-and-numbness-caused-by-prolonged-work-on-the.jpg?s=612x612&w=0&k=20&c=kR7RR-uKWFSfP3rRi6-f7MP5KBswqdNO5rmoWqAO4XI=",
+      imageHomepageslider_3,
     price: 1069,
     originalPrice: 2000
   },
@@ -29,7 +38,7 @@ const sampleProducts = [
     id: 4,
     name: "Pinched Spinal Nerve",
     image:
-      "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1888857.jpg",
+      imageHomepageslider_4,
     price: 1049,
     originalPrice: 2000
 
@@ -38,7 +47,7 @@ const sampleProducts = [
     id: 5,
     name: "Groin Nerve Pain",
     image:
-      "https://media.istockphoto.com/id/512753579/photo/targeting-back-pain.jpg?s=612x612&w=0&k=20&c=iggJ53X9AQvk5W7WKDWheI5ZKGPuXjXYUR_dv1QAy_Y=",
+      imageHomepageslider_5,
     price: 1035,
     originalPrice: 2000
 
@@ -47,7 +56,7 @@ const sampleProducts = [
     id: 6,
     name: "Sacroiliac Joint Pain",
     image:
-      "https://media.istockphoto.com/id/1224225062/photo/man-is-receiving-back-massage.jpg?s=612x612&w=0&k=20&c=tadx6JV_EKez9zoowYt3UJzl9K2nZPtI1L53_uBIIVs=",
+     imageHomepageslider_6,
     price: 1535,
     originalPrice: 2000
 
@@ -57,7 +66,7 @@ const sampleProducts = [
     id: 7,
     name: "Pinched Nerve In Lower Back",
     image:
-      "https://media.istockphoto.com/id/841868238/photo/spine-pain-man-with-backache-and-ache-in-the-neck-black-and-white-photo-with-red-backbone.jpg?s=612x612&w=0&k=20&c=R2GTrIL72zpGdMDwDt32zRKQgk4JuR6sM4myVeWww90=",
+imageHomepageslider_7,
     price: 1999,
     originalPrice: 2000
 
@@ -67,7 +76,7 @@ const sampleProducts = [
     id: 8,
     name: "Trigger Point",
     image:
-      "https://lirp.cdn-website.com/2c25dec1/dms3rep/multi/opt/article-146-trigger-points-640w.jpg",
+     imageHomepageslider_8,
     price: 1899,
     originalPrice: 2000
 
@@ -164,7 +173,7 @@ const HorizontalProductView = () => {
                     src={product.image}
                     alt={product.title}
                     className="w-full h-full object-center object-cover"
-                  />
+                  /> 
                 </div>
                 <h3 className="text-lg font-semibold mt-3">{product.name}</h3>
               </div>

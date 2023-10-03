@@ -1,4 +1,5 @@
 import React from 'react';
+import about_page_image from '../Common/img/about_page_image.jpg'
 
 const AboutUs = () => {
   return (
@@ -42,7 +43,7 @@ const AboutUs = () => {
         </div>
         <div className="md:ml-5 mt-20 text-center"> {/* Use margin and text-center for centering */}
           <img
-            src="https://images.ctfassets.net/jr4z51ryhycy/45AuMIMMovfiBxorxNvDl9/6bf10068828077cfdf3420c65b0da6e0/bas-peperzak-J1trUf0Lj3Q-unsplash.jpg"
+            src={about_page_image}
             alt="Ehikka Massage Services"
             className="rounded-lg shadow-md mx-auto " />
         </div>

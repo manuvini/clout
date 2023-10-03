@@ -5,8 +5,6 @@ import ProductListing from "../Components/Common/SectionProducts"
 import WhatsApp from "../Components/Common/WhatsApp"
 
 const Services = () => {
-
-
     return (
         <>
             <div

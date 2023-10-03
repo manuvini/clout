@@ -1,16 +1,16 @@
 import React from 'react';
+import gallery_page_1 from '../Common/img/gallery_page_1.jpg'
+import gallery_page_2 from '../Common/img/gallery_page_2.jpg';
+import gallery_page_3 from '../Common/img/gallery_page_3.jpg'
+import gallery_page_4 from '../Common/img/gallery_page_4.jpg'
+import gallery_page_5 from '../Common/img/gallery_page_5.jpg'
+import gallery_page_6 from '../Common/img/gallery_page_6.jpg'
+import gallery_page_7 from '../Common/img/gallery_page_7.jpg'
+import gallery_page_8 from '../Common/img/gallery_page_8.jpg'
+import gallery_page_9 from '../Common/img/gallery_page_9.jpg'
 
-const Gallery = [
-  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-1.jpg",
-  "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/11/massageTherapy-636218646-770x553-1-650x428.jpg",
-  "https://www.vitalphysio.ca/wp-content/uploads/2022/09/Vital-Blog-Custom-Orthotics-2048x2048-1.jpg",
-  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-5.jpg",
-  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-6.jpg",
-  "https://t4.ftcdn.net/jpg/04/01/97/01/360_F_401970121_5hC9H0caEevCvGVZUZUM4oDvD2fKDo08.jpg",
-  "https://www.neweraspa.in/assets/images/gallery/gallery-page-1-8.jpg",
-  "https://www.massagemag.com/wordpress/wp-content/uploads/News_9-5-2-1024x561.jpg",
-  "https://domf5oio6qrcr.cloudfront.net/medialibrary/7163/acupuncture-needles.jpg",
-];
+
+const Gallery = [gallery_page_1, gallery_page_2, gallery_page_3, gallery_page_4, gallery_page_5, gallery_page_6, gallery_page_7, gallery_page_8, gallery_page_9];
 
 
 function Grid() {
@@ -23,6 +23,7 @@ function Grid() {
             <img
               src={elem}
               alt={`Gallery Image ${index}`}
+
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
