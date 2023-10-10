@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import slide1 from "./img/slide1.jpg";
 import slide2 from "./img/slide2.jpg";
 
-const SliderData = [slide1,slide2]
+const SliderData = [slide1, slide2]
 const Slider = () => {
   const [activeSlide, setActiveSlide] = useState(0);
   const [slides, setSliderData] = useState(SliderData);
@@ -62,9 +62,8 @@ const Slider = () => {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className={`duration-700 ease-in ${
-                activeSlide === index ? "block" : "hidden"
-              }`}
+              className={`duration-700 ease-in ${activeSlide === index ? "block" : "hidden"
+                }`}
               data-Slider-item
             >
               {/* Show the label for the slide */}
@@ -86,9 +85,8 @@ const Slider = () => {
             <button
               key={index}
               type="button"
-              className={`w-3 h-3 rounded-full ${
-                activeSlide === index ? "bg-white" : "bg-gray-300"
-              }`}
+              className={`w-3 h-3 rounded-full ${activeSlide === index ? "bg-white" : "bg-gray-300"
+                }`}
               aria-current={activeSlide === index}
               aria-label={`Slide ${index + 1}`}
               data-Slider-slide-to={index}

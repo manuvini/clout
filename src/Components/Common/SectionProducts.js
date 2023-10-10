@@ -73,9 +73,6 @@ const sampleProducts = [
       service_6, price: 1535,
     originalPrice: 2000,
     description: "Massage therapy can be a valuable complementary approach for managing sacroiliac joint pain, a condition characterized by discomfort in the area where the sacrum (the triangular bone at the base of the spine) meets the ilium (the pelvic bone). While massage cannot directly address structural issues in the sacroiliac joint, it can help relieve muscle tension and reduce pain associated with the condition."
-
-
-
   },
   {
     id: 7,
@@ -84,8 +81,6 @@ const sampleProducts = [
       service_7, price: 1999,
     originalPrice: 2000,
     description: "Massage therapy can be a helpful complementary approach for managing the discomfort and pain associated with a pinched nerve in the lower back, often caused by compression or irritation of a spinal nerve root. While massage cannot directly address structural issues that lead to nerve compression, it can help alleviate muscle tension, improve circulation, and promote relaxation, which can reduce pain and improve overall well-being."
-
-
   },
 
   {
@@ -98,8 +93,6 @@ const sampleProducts = [
 
 
   },
-
-
   {
     id: 9,
     name: "Lower Back Pinched Nerve",
@@ -107,7 +100,6 @@ const sampleProducts = [
       service_9, price: 1899,
     originalPrice: 2000,
     description: "Ciatic pain occurs when ciatic nerve which runs from the lower back down through the buttocks andMassage therapy can be a beneficial complementary approach for managing the discomfort and pain associated with a pinched nerve in the lower back, often caused by compression or irritation of a spinal nerve root. While massage cannot directly address structural issues that lead to nerve compression, it can help alleviate muscle tension, improve circulation, promote relaxation, and reduce pain, which can improve overall well-being. "
-
 
   },
   {

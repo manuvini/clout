@@ -14,8 +14,8 @@ function Header() {
         <nav className="flex items-center justify-between max-w-6xl mx-auto px-4">
           <div className="flex items-center space-x-2">
             {/* Your logo */}
-            <a href="#" className="text-white text-4xl pl-5">
-              Ehikka
+            <a href="#" className="text-white text-2xl ">
+            Sarvangahealex
             </a>
           </div>
           <div className="lg:hidden">

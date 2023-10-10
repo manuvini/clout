@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
                 <h1 className="text-3xl font-bold mt-4 text-center ">Privacy Policy</h1> <br />
                 <div className='px-5'>
                     <p className="text-black text-xl mb-4">
-                        Ehikka Corporation (“Ehikka”) is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website or use our services. By accessing our website and using our services, you agree to the terms and practices described in this Privacy Policy.                    </p>
+                        Sarvangahealex Corporation (“Sarvangahealex”) is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website or use our services. By accessing our website and using our services, you agree to the terms and practices described in this Privacy Policy.                    </p>
 
                     <section>
                         <h2 className="text-black text-2xl mb-4 font-bold">Information Collection</h2>
@@ -56,7 +56,7 @@ const PrivacyPolicy = () => {
                     <section>
                         <h2 className="text-black text-2xl mb-4 font-bold">Contact Us</h2>
                         <p className="text-black text-xl mb-4">
-                            If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at contact@ekkia.com.
+                            If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at contact@sarvangahealex.com.
 
                         </p>
                     </section>

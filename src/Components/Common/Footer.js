@@ -8,13 +8,8 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <h1 className="text-3xl font-bold text-white mb-4">
-                Ehikka
+                Sarvangahealex
               </h1>
-              {/* <img
-                src="https://firebasestorage.googleapis.com/v0/b/sproutive-1763d.appspot.com/o/sproutive-logo.png?alt=media&token=45162347-bace-40c6-b1d2-632fbbd62469"
-                className="h-11 mr-3"
-                alt="FlowBite Logo"
-              /> */}
             </a>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2 md:grid-cols-3">
@@ -22,8 +17,9 @@ const Footer = () => {
               <h2 className="mb-4 text-xl font-semibold text-white uppercase">
                 Contact Info
               </h2>
-              <ul className="mr-8 text-gray-400 font-medium text-lg">
-                <li className="mb-2">Some Adress</li>
+
+              <ul className="mr-4 text-gray-400 font-semibold text-lg">
+                <li className="mb-2">Some Address</li>
                 <li className="mb-2">Bangalore, India- 560035</li>
                 <li className="mb-2">+91 999999999 </li>
                 <li>contact@cloutservices.in</li>
@@ -44,7 +40,6 @@ const Footer = () => {
                     About
                   </a>
                 </li>
-
                 <li className="mb-2">
                   <a href="/services" className="hover:underline">
                     Services
@@ -58,8 +53,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-4 text-sm font-semibold uppercase text-white text-xl">
-                Legal
+              <h2 className="mb-4 text-sm font-semibold text-white uppercase text-xl ">      
+                        Legal
               </h2>
               <ul className="text-gray-400 font-medium text-lg">
                 <li className="mb-2">
@@ -77,7 +72,6 @@ const Footer = () => {
                     Service Policy
                   </a>
                 </li>
-
               </ul>
             </div>
           </div>
@@ -106,7 +100,7 @@ const Footer = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
-              <path d="M23.954 4.569c-.885.388-1.835.65-2.833.771 1.014-.609 1.794-1.575 2.164-2.725-.951.564-2.005.974-3.127 1.194-.895-.957-2.17-1.555-3.578-1.555-2.706 0-4.904 2.198-4.904 4.904 0 .384.043.758.126 1.116-4.082-.205-7.7-2.164-10.122-5.138-.422.717-.665 1.552-.665 2.445 0 1.693.863 3.188 2.172 4.066-.8-.025-1.556-.245-2.217-.611v.062c0 2.364 1.681 4.33 3.913 4.78-.41.111-.84.172-1.283.172-.313 0-.616-.031-.917-.09.631 1.958 2.445 3.381 4.598 3.422-1.685 1.322-3.807 2.11-6.104 2.11-.397 0-.79-.023-1.178-.069 2.185 1.398 4.768 2.21 7.554 2.21 9.054 0 14.007-7.498 14.007-14.007 0-.213-.005-.426-.015-.638.959-.696 1.798-1.566 2.46-2.557l-.047-.02z" />
+              <path d="M23.954 4.569c-.885.388-1.835.65-2.833.771 1.014-.609 1.794-1.575 2.164-2.725-.951.564-2.005.974-3.127 1.194-.895-.957-2.17-1.555-3.578-1.555-2.706 0-4.904 2.198-4.904 4.904 0 .384.043.758.126 1.116-4.082-.205-7.7-2.164-10.122-5.138-.422.717-.665 1.552-.665 2.445 0 1.693.863 3.188 2.172 4.066-.8-.025-1.556-.245-2.217-.611v.062c0 2.364 1.681 4.33 3.913 4.78-.41.111-.84.172-1.283.172-.313 0-.616-.031-.917-.09.631 1.958 2.445 3.381 4.598 3.422-1.685 1.322-3.807 2.11-6.104 2.11-.397 0-.79-.023-1.178-.069 2.185 1.398 4.768 2.21 7.554 2.21 9.054 0 14.007-7.498 14.007-14.007 0-.213-.005-.426-.015-.638.959-.696 1.798-1.566 2.46-2.557l-.047-.20z" />
             </svg>
           </a>
         </div>

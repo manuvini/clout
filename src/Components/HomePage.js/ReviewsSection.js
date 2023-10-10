@@ -8,11 +8,11 @@ const TestimonialSection = () => {
     },
     {
       author: 'Srini',
-      content: 'I recently had the pleasure of experiencing in Ehikka, and I must say, it was an absolute delight that left me thoroughly relaxed and rejuvenated.',
+      content: 'I recently had the pleasure of experiencing in Sarvangahealex, and I must say, it was an absolute delight that left me thoroughly relaxed and rejuvenated.',
     },
     {
       author: 'Darshan',
-      content: 'My experience at Ehikka was exceptional ,they offer is a testament to their commitment to quality and authenticity. If you are looking for a genuine, soul-soothing massage that encompasses the wisdom of ancient Indian practices, I wholeheartedly recommend giving this place a visit. I left with a contented heart, a relaxed body, and a promise to return for another dose of serenity.',
+      content: 'My experience at Sarvangahealex was exceptional ,they offer is a testament to their commitment to quality and authenticity. If you are looking for a genuine, soul-soothing massage that encompasses the wisdom of ancient Indian practices, I wholeheartedly recommend giving this place a visit. I left with a contented heart, a relaxed body, and a promise to return for another dose of serenity.',
     },
 
     // Add more reviews here
